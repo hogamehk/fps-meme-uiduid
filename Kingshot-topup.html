@@ -62,9 +62,9 @@
         .notice-list > li { border-left: 4px solid rgba(255, 179, 71, 0.85); }
         .notice-list strong { color: #ffe2ae; }
         .info-list strong, .faq-a strong { color: #8be9d4; }
-        .guide-steps { counter-reset: dmmGuide; }
-        .guide-steps li { counter-increment: dmmGuide; position: relative; padding-left: 52px; background: linear-gradient(120deg, rgba(37, 99, 235, 0.14), rgba(20, 184, 166, 0.08)); }
-        .guide-steps li::before { content: counter(dmmGuide); position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, #38bdf8, #14b8a6); color: #03232a; font-weight: 800; }
+        .guide-steps { counter-reset: kingshotGuide; }
+        .guide-steps li { counter-increment: kingshotGuide; position: relative; padding-left: 52px; background: linear-gradient(120deg, rgba(37, 99, 235, 0.14), rgba(20, 184, 166, 0.08)); }
+        .guide-steps li::before { content: counter(kingshotGuide); position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, #38bdf8, #14b8a6); color: #03232a; font-weight: 800; }
         .faq-q { margin: 0; color: #fef3c7; font-weight: 700; line-height: 1.55; }
         .faq-a { margin: 8px 0 0; color: #e6f0ff; line-height: 1.7; }
         .smart-customer-service { position: fixed; bottom: 24px; right: 24px; z-index: 99999; display: flex; flex-direction: column; align-items: flex-end; }
@@ -83,45 +83,26 @@
 {
   "@context": "https://schema.org/",
   "@type": "Product",
-  "name": "日本 DMM 點數卡（DMM Point Card / DMM 充值）",
-  "url": "https://uiduid.com/japan-dmm-points.html",
-  "image": "https://uiduid.com/images/japan-dmm-points.webp",
-  "description": "日本 DMM 平台專用點數卡儲值，支援500/800/1000/2000/3000/5000/10000點等多面額，現貨即發。本站採人工專人發碼，付款後 5-15 分鐘即時處理與快速發貨。適用 DMM 遊戲、動漫、電子書等內容，日本帳號首選正規管道。",
-  "brand": {"@type": "Brand", "name": "DMM"},
-  "sku": "JP-DMM-POINTS",
-  
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "892",
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  
-  "review": [
-    {
-      "@type": "Review",
-      "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
-      "author": {"@type": "Person", "name": "HOGame 用戶"},
-      "datePublished": "2026-05-01",
-      "reviewBody": "發卡速度超快，價格比其他平台划算很多，DMM 儲值強推 uiduid.com！"
-    }
-  ],
-  
+    "name": "Kingshot 儲值",
+    "url": "https://uiduid.com/Kingshot-topup.html",
+    "image": "https://uiduid.com/images/Kingshot-topup.webp",
+    "description": "Kingshot 禮包儲值，提供多種面額選擇，付款確認後盡快處理。",
+    "brand": {"@type": "Brand", "name": "Kingshot"},
+    "sku": "KINGSHOT-TOPUP",
   "offers": {
     "@type": "AggregateOffer",
     "priceCurrency": "HKD",
-    "lowPrice": 28,
-    "highPrice": 498,
+    "lowPrice": 8,
+    "highPrice": 703,
     "offerCount": 7,
     "offers": [
-      {"@type": "Offer", "price": 30, "priceCurrency": "HKD", "name": "500 日圓", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "price": 45, "priceCurrency": "HKD", "name": "800 日圓", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "price": 54, "priceCurrency": "HKD", "name": "1000 日圓", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "price": 105, "priceCurrency": "HKD", "name": "2000 日圓", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "price": 156, "priceCurrency": "HKD", "name": "3000 日圓", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "price": 250, "priceCurrency": "HKD", "name": "5000 日圓", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "price": 498, "priceCurrency": "HKD", "name": "10000 日圓", "availability": "https://schema.org/InStock"}
+    {"@type": "Offer", "price": 8, "priceCurrency": "HKD", "name": "原價 HK$8", "availability": "https://schema.org/InStock"},
+    {"@type": "Offer", "price": 23, "priceCurrency": "HKD", "name": "原價 HK$23", "availability": "https://schema.org/InStock"},
+    {"@type": "Offer", "price": 38, "priceCurrency": "HKD", "name": "原價 HK$38", "availability": "https://schema.org/InStock"},
+    {"@type": "Offer", "price": 75, "priceCurrency": "HKD", "name": "原價 HK$78", "availability": "https://schema.org/InStock"},
+    {"@type": "Offer", "price": 145, "priceCurrency": "HKD", "name": "原價 HK$158", "availability": "https://schema.org/InStock"},
+    {"@type": "Offer", "price": 365, "priceCurrency": "HKD", "name": "原價 HK$398", "availability": "https://schema.org/InStock"},
+    {"@type": "Offer", "price": 703, "priceCurrency": "HKD", "name": "原價 HK$788", "availability": "https://schema.org/InStock"}
     ],
     "seller": {"@type": "Organization", "name": "uiduid.com"}
   }
@@ -136,58 +117,34 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "香港可以買 DMM點數卡嗎？（DMM點數卡香港）",
+    "name": "Kingshot 可以選擇哪些禮包？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "可以！UIDUID.COM 提供香港本地最方便的 DMM 點數卡購買管道，支援 500～10000 點多種面額，24小時在線即時發卡、全年無休。支付方式包含 FPS（轉數快）、PayMe、AlipayHK、WeChat Pay HK、Tap & Go，買完即可課金。"
+        "text": "本頁提供原價 HK$8、HK$23、HK$38、HK$78、HK$158、HK$398 及 HK$788 禮包，可按需要選擇。"
       }
     },
     {
       "@type": "Question",
-      "name": "在 UIDUID.COM 購買 DMM 點數安全嗎？",
+    "name": "購買後多久可以完成 Kingshot 儲值？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "非常安全。UIDUID.COM 由香港合法註冊公司 HOGAME ONLINE ENTERTAINMENT LIMITED（公司編號：2243519）營運，提供 100% 正版官方序號，並有專業售後支援，遠離詐騙風險。"
+        "text": "付款確認後會盡快處理，實際到帳時間會因訂單資料與遊戲系統狀況而異。"
       }
     },
     {
       "@type": "Question",
-      "name": "DMM官網提示「このサービスはお住まいの地域からはご利用になれません」怎麼辦？",
+    "name": "下單前需要確認甚麼？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "打開DMM官網提示：このサービスはお住まいの地域からはご利用になれません\n此錯誤表示「您所在的地區無法使用此服務」。常見原因是海外 IP 訪問日本服務。解決方法：開啟穩定日本節點 VPN（如 NordVPN），清除瀏覽器快取與 Cookie，再重新進入即可。"
+        "text": "請確認 Kingshot 遊戲帳號、角色、伺服器及所選禮包面額；資料錯誤可能影響儲值處理。"
       }
     },
     {
       "@type": "Question",
-      "name": "DMM 點數卡可以用來做什麼？",
+    "name": "Kingshot 儲值完成後可以申請退款嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "可用於 DMM 平台遊戲課金（如艦これ、FGO）、購買動漫、電子書及成人內容。兌換後點數即時可用，無到期限制，但須遵守 DMM 官方規則。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "兌換 DMM 點數卡時出現錯誤該怎麼辦？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "1. 「このサービスはご利用いただけません」：切日本 VPN + 清快取。\n2. 「無効なコードです」：改英文半形輸入，直接複製完整序號。\n3. 「ポイントの上限を超えています」：先消耗部分點數再兌換。\n4. 要求手機驗證：完成確認或等 24 小時。\n5. 「すでに使用済みのコードです」：截圖聯絡客服補發或退款。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "購買後多久能收到 DMM 點數卡序號？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "付款確認後，通常於 5-15 分鐘內透過聊天窗口發送。高峰時段可能延至 30 分鐘。"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "如果序號無效或有問題，能退款嗎？",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "可以。我們提供 100% 退款保證與完善售後保障。無論是序號無效、兌換失敗或任何問題，請立即聯絡客服，我們會在最短時間內處理全額退款或補發新碼，讓您安心購買。"
+                "text": "數位虛擬商品與遊戲儲值一經完成，不支援退款或退貨；請於付款前確認商品內容及訂單資料。"
       }
     }
   ]
@@ -201,12 +158,12 @@
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "首頁", "item": "https://uiduid.com/"},
-        {"@type": "ListItem", "position": 2, "name": "日本 DMM 點數卡儲值", "item": "https://uiduid.com/japan-dmm-points.html"}
+        {"@type": "ListItem", "position": 2, "name": "Kingshot 儲值", "item": "https://uiduid.com/Kingshot-topup.html"}
       ]
     }
     </script>
 </head>
-<body style="background-image: url('/images/Kingshot-topup.webp'); background-size: cover; background-attachment: fixed;">
+<body id="top" style="background-image: url('/images/Kingshot-topup.webp'); background-size: cover; background-attachment: fixed;">
 
     <!-- 頂部導航 -->
     <nav class="top-nav" aria-label="主要導航">
@@ -254,7 +211,7 @@
     </div>
     <div class="sell-point">
         <i class="fas fa-shield-alt"></i>
-        官方正品
+        正規渠道
     </div>
 </div>
 
@@ -319,7 +276,7 @@
             <section class="info-section" aria-labelledby="limits-title">
                 <h2 id="limits-title" class="info-title"><i class="fas fa-exclamation-triangle"></i> 重要使用限制與注意事項</h2>
                 <ul class="info-list">
-                    <li><strong>適用平台</strong>：本商品支援 Windows、Google Play 及 App Store 版本。</li>
+                    <li><strong>適用遊戲</strong>：本商品僅適用於 Kingshot雙平台系統，請在下單前確認遊戲帳號資料。</li>
                     <li><strong>帳號確認</strong>：請使用Kingshot 官方儲值頁核對登入帳號、角色與伺服器。</li>
                     <li><strong>禮包對應</strong>：請選擇與官方儲值或提供遊戲內購相符的禮包圖片；避免因選錯禮包商品面額而影響儲值。</li>
                     <li><strong>官方規則</strong>：儲值資格、活動贈品及使用限制均以Kingshot 官方公告為準。</li>
@@ -371,7 +328,7 @@
                 </div>
             </div>
 
-            <a href="https://uiduid.com" class="back-home-btn"><i class="fas fa-home"></i> 返回首頁</a>
+            <a href="#top" class="back-home-btn"><i class="fas fa-home"></i> 回到頂部</a>
         </div>
     </main>
 
