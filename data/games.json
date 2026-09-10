@@ -12,7 +12,7 @@
     { "name": "最強塔塔",       "image": "/images/ttmxd.webp", "region": "tw", "hot": true,  "order": 2, "link": "ttmxd-topup.html" },
   { "name": "蛋仔派對(Eggy Party)", "image": "/images/EggyParty.webp", "region": "global","hot": true,  "order": 2, "link": "buy-eggyparty-topup.html" },
   { "name": "崩壞：星穹鐵道", "image": "/images/honkai.webp", "region": "global","hot": true,  "order": 2, "link": "honkai.html" },
-  { "name": "第五人格Identity V", "image": "/images/IdentityV", "region": "global","hot": true,  "order": 1, "link": "identityv-hk-topup.html" },
+  { "name": "第五人格Identity V", "image": "/images/IdentityV.webp", "region": "global","hot": true,  "order": 1, "link": "identityv-hk-topup.html" },
   { "name": "全境封鎖：曙光", "image": "/images/buy-the-division-resurgence-credits.webp", "region": "global","hot": true,  "order": 1, "link": "buy-the-division-resurgence-credits.html" },
   { "name": "寒霜啟示錄 / Whiteout Survival", "image": "/images/WhiteoutSurvival.webp", "region": "global","hot": true,  "order": 2, "link": "whiteoutsurvival-topup.html" },
   { "name": "Aion2",       "image": "/images/aion2.webp", "region": "tw", "hot": true,  "order": 5, "link": "aion2.html" },
